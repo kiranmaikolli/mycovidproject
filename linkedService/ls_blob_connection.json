@@ -10,7 +10,7 @@
 					"referenceName": "ls_keyvault",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "BlobConnectionString-dev",
+				"secretName": "BlobConnectionString-devv",
 				"secretVersion": "Kiranmai"
 			}
 		}
