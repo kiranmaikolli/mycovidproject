@@ -6,7 +6,7 @@
 			"value": "covidreportproject-dev"
 		},
 		"ls_blob_connection_properties_typeProperties_connectionString_secretName": {
-			"value": "Blobconnectionstring"
+			"value": "BlobConnectionString-devv"
 		},
 		"ls_keyvault_properties_typeProperties_baseUrl": {
 			"value": "https://covidreport-dev-kv.vault.azure.net/"

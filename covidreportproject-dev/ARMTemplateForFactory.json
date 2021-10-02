@@ -9,7 +9,7 @@
 		},
 		"ls_blob_connection_properties_typeProperties_connectionString_secretName": {
 			"type": "string",
-			"defaultValue": "Blobconnectionstring"
+			"defaultValue": "BlobConnectionString-devv"
 		},
 		"ls_keyvault_properties_typeProperties_baseUrl": {
 			"type": "string",
@@ -191,7 +191,8 @@
 							"referenceName": "ls_keyvault",
 							"type": "LinkedServiceReference"
 						},
-						"secretName": "[parameters('ls_blob_connection_properties_typeProperties_connectionString_secretName')]"
+						"secretName": "[parameters('ls_blob_connection_properties_typeProperties_connectionString_secretName')]",
+						"secretVersion": ""
 					}
 				}
 			},
