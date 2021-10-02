@@ -11,7 +11,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"secretName": "BlobConnectionString-devv",
-				"secretVersion": "Kiranmai"
+				"secretVersion": ""
 			}
 		}
 	},
