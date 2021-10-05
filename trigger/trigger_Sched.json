@@ -1,0 +1,24 @@
+{
+	"name": "trigger_Sched",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_foralert",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 3,
+				"startTime": "2021-10-04T17:32:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
