@@ -85,9 +85,12 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"url": "https://dummy",
+								"url": "https://prod-16.northcentralus.logic.azure.com:443/workflows/d695709333ec4f56bb0f5184cd53fcd4/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=ILT-aIpvJ8HLOOFBtUKP9pb50CLgBev5GYzJsMaywbk",
 								"method": "POST",
-								"body": "dummyy"
+								"body": {
+									"value": "{\n\"title\" : Created new ADF Pipeline to move from Blob to blob \n\"Message \" :  I sent a file\n\n}",
+									"type": "Expression"
+								}
 							}
 						}
 					],
