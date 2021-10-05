@@ -179,7 +179,7 @@
 										"referenceName": "ls_blob_connection",
 										"type": "LinkedServiceReference"
 									},
-									"path": "logfiles"
+									"path": "logdeletedfiles"
 								},
 								"enableLogging": true,
 								"storeSettings": {
