@@ -1,0 +1,9 @@
+{
+	"name": "kirancovidproject-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e8ba6f5b-847d-4026-8af6-dfc6c1c77303",
+		"tenantId": "f790397a-e69a-4be1-b978-e9883316faf9"
+	}
+}

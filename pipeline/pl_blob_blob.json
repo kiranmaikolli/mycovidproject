@@ -3,6 +3,20 @@
 	"properties": {
 		"activities": [
 			{
+				"name": "Validation1",
+				"type": "Validation",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "ds_input",
+						"type": "DatasetReference"
+					},
+					"timeout": "7.00:00:00",
+					"sleep": 10
+				}
+			},
+			{
 				"name": "Copy data1",
 				"type": "Copy",
 				"dependsOn": [
@@ -56,34 +70,20 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ds_inputdataset",
+						"referenceName": "ds_input",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_outputdataset",
+						"referenceName": "ds_output",
 						"type": "DatasetReference"
 					}
 				]
-			},
-			{
-				"name": "Validation1",
-				"type": "Validation",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"dataset": {
-						"referenceName": "ds_inputdataset",
-						"type": "DatasetReference"
-					},
-					"timeout": "7.00:00:00",
-					"sleep": 10
-				}
 			}
 		],
 		"annotations": [],
-		"lastPublishTime": "2021-10-02T17:10:33Z"
+		"lastPublishTime": "2021-10-07T16:21:13Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }

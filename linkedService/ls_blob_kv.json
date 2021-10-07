@@ -1,0 +1,11 @@
+{
+	"name": "ls_blob_kv",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kirancovidprojectdev-kv.vault.azure.net/"
+		}
+	}
+}
